@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+body {
+  padding: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+}

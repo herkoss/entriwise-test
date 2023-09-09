@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  width: 100%;
+  min-height: 180px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .listItem {
+    width: calc(50% - 12px);
+  }
+}

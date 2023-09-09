@@ -1,0 +1,21 @@
+.root {
+  width: 180px;
+  padding: 16px 32px;
+  background-color: #375b7a;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.root:hover {
+  cursor: pointer;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
